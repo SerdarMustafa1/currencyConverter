@@ -1,0 +1,15 @@
+h5 {
+	color: #fefefe;
+	font-weight: 600;
+	margin: 50px 0 30px 0;
+}
+
+.datePicker {
+	display: absolute;
+	top: 70vh;
+	color: #fefefe;
+}
+
+.fa-calendar {
+	color: blue;
+}
