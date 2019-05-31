@@ -33,6 +33,10 @@ body {
 	text-transform: uppercase;
 }
 
+.curRateTitle {
+	color: #fefefe;
+}
+
 .footer {
 	position: absolute;
 	bottom: 0;
@@ -139,6 +143,7 @@ label {
 	background-color: #0975d6;
 	padding: 3px;
 	min-width: 100px;
+	-webkit-box-shadow: 0px 8px 35px -6px rgba(77, 170, 242, 0.36);
 	box-shadow: 0px 8px 35px -6px rgba(77, 170, 242, 0.36);
 }
 
