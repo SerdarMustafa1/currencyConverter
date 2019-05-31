@@ -1,4 +1,3 @@
-console.log('currate test');
 import { get } from 'axios';
 
 get(

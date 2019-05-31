@@ -6,10 +6,10 @@ var now = moment().format('ddd-MMM-YYYY');
 document.querySelector('.startDate').innerHTML =
 	"From today's date" + ':' + ' ' + now;
 
-$('#endDate').datepicker({
-	uiLibrary: 'bootstrap4',
-	iconsLibrary: 'fontawesome',
-	minDate: function() {
-		return $('#startDate').val();
-	}
+$(function() {
+	$('#datepicker').datepicker();
+	$('#datepicker').change(function() {
+		$('#placeholder').text(date);
+		//console.log(date);
+	});
 });
